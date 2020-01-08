@@ -83,7 +83,9 @@
 # s1 = 72 #上月成绩
 # s2 = 85 #本月成绩
 # r = (s2/s1-1)*100
-# print('{0}成绩提成了：{1:.1f}%'.format('小明',r))
+# s = (s2/s1)*100
+# print('{0}的成绩提高了：{1:.1f}%'.format('小明',r))
+# print('{0}本月成绩是上月的：{1:.1f}%'.format('小明',s))
 
 #list Python内置的一种数据类型是列表：list。list是一种有序的集合，可以随时添加和删除其中的元素。
 # classmates = ['Xiaoming','Xiaohong','Xiaogang']
@@ -217,15 +219,16 @@
 # print(s)#{1, 2, 3}
 
 # 两个集合的交集与并集
-s1 = set([1,2,3])
-s2 = set([2,3,4])
-print(s1 & s2)#{2, 3}
-print(s1 | s2)#{1, 2, 3, 4}
+# s1 = set([1,2,3])
+# s2 = set([2,3,4])
+# print(s1 & s2)#{2, 3}
+# print(s1 | s2)#{1, 2, 3, 4}
 
-a = 'abc'
-b = a.replace('a', 'A')
-print(a)#abc
-print(b)#Abc
+# a = 'abc'
+# b = a.replace('a', 'A')
+# print(a)#abc
+# print(b)#Abc
 
-
+#函数
+# https://www.liaoxuefeng.com/wiki/1016959663602400/1017105145133280
 
