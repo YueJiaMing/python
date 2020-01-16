@@ -231,4 +231,52 @@
 
 #函数
 # https://www.liaoxuefeng.com/wiki/1016959663602400/1017105145133280
+#内置函数 https://docs.python.org/zh-cn/3/library/functions.html#built-in-functions
+
+#绝对值函数：接收一个参数，返回绝对值
+# print(abs(100))#100
+# print(abs(-20))#20
+# print(abs(12.34))#12.34
+
+#max函数:接收任意多个参数，并返回最大的那个
+# print(max(1,2,3,4,5))
+
+#数据类型转换
+# print(int('123'))#123
+# print(int(12.34))#12
+# print(float('12.34'))#12.34
+# print(float(12.34))#12.34
+# print(str(1.23))#1.23 在python终端显示 '1.23'
+# print(str(100))#100 '100'
+# print(bool(1))#True
+# print(bool(''))#False
+
+# 函数名其实就是指向一个函数对象的引用，完全可以把函数名赋给一个变量，相当于给这个函数起了一个“别名”：
+# a = abs
+# print(a(-1))#1
+
+#内置的hex()函数把一个整数转换成十六进制表示的字符串
+# print(hex(255))
+
+# print(round(12.345,2))#12.35
+
+# 定义函数
+# def my_abs(x):
+#     if x >= 0:
+#         return x
+#     else:
+#         return -x
+# print(my_abs(-99))#99
+
+#如果你已经把my_abs()的函数定义保存为abstest.py文件了，那么，可以在该文件的当前目录下启动Python解释器，用from abstest import my_abs来导入my_abs()函数
+# from abstest import my_abs
+# print(my_abs(-9))#9
+
+# 空函数
+def nop():
+    pass
+
+
+
+
 
